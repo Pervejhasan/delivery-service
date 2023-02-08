@@ -1,0 +1,93 @@
+/*@media all and (min-width:992px){
+   .navbar .nav-item .dropdown-menu{display: none;}
+   .navbar .nav-item:hover .nav-link{ }
+    .navbar .nav-item:hover .dropdown-menu{display: block;}
+    .navbar .nav-item .dropdown-menu{margin-top: 0;}
+}
+*/
+.navbar .nav-item .dropdown-menu{display: none;}
+.navbar .nav-item:hover .dropdown-menu{display: block;}
+.navbar .nav-item:hover .nav-link{ }
+
+/*!*.navbar .nav-item .dropdown-menu{margin-top: 0;}*!*/
+/*.my-caption{*/
+/*    top: 150px;*/
+/*    background: rgba(0,0,0,0.5);*/
+/*    height: 180px;*/
+
+/*}*/
+/*@media screen and (max-width:800px){*/
+/*.my-caption{*/
+/*   top: 80px;*/
+/*}*/
+
+/*}*/
+/*@media screen and (min-width:800px) and  (max-width:1200px) {*/
+/*    .my-caption{*/
+/*        top: 100px;*/
+/*    }*/
+
+/*}*/
+/*.card-image{*/
+/*    transition: transform .5s;*/
+/*}*/
+/*.card-image:hover{*/
+/*    transform: scale(1.1);*/
+
+/*}*/
+
+/* ======================project css ========================*/
+.bg-orange{
+    background-color: #FF4800;
+}
+.bg-orange:hover{
+    background-color: #D93D00;
+    color:white;
+}
+.text-orange, .text-orange:hover{
+    color:#FF4800;
+}
+
+/*.text-orange:hover{*/
+/*    color:#FF4800;*/
+/*}*/
+
+.nav-link:hover{
+    background-color: #FF4800;
+    color:white
+
+}
+
+.banner-section{
+    background-image: url("../image/header.jpg");
+    height: 500px;
+}
+.banner-card{
+    margin-top: 120px;
+
+}
+
+.free-quote-form{
+ padding:60px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
