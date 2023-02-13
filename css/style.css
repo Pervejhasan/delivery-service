@@ -6,24 +6,39 @@
 }
 
 /* ======================project css ========================*/
+
+/* ====================== background color ========================== */
 .bg-orange {
   background-color: #ff4800;
 }
+
 .bg-orange:hover {
   background-color: #d93d00;
   color: white;
 }
-.text-orange,
-.text-orange:hover {
-  color: #ff4800;
-}
 
+.bg-deep-orange {
+  background-color: #d93d00;
+}
 .bg-dark-navy {
   background-color: #1f1f2e;
 }
 .bg {
   background-color: #f2f2f4;
 }
+/* ================ text color ====================== */
+.text-orange,
+.text-orange:hover {
+  color: #ff4800;
+}
+.text-gray {
+  color: #6c757d;
+}
+
+.text-navy {
+  color: #1f1f2e;
+}
+/* ====================== footer =============================== */
 .footer-text {
   text-decoration: none;
 }
@@ -66,8 +81,12 @@
 }
 
 /*============= card hover ====================*/
+.date:hover {
+  color: black;
+}
+
 .team-card {
-  border-bottom: 5px solid #ff4800;
+  border-bottom: 8px solid #d93d00;
 }
 .team-card .card-body {
   position: relative;
@@ -76,7 +95,8 @@
   display: none;
   padding-top: 30px;
   height: 100%;
-  /*transition:all 0.5s;*/
+  /* top: 103px; */
+  transition: height 3s ease-in-out;
 }
 
 .team-card:hover .hover-content {
@@ -86,6 +106,25 @@
   width: 100%;
 }
 
+/* ===================== icon style ====================== */
+.fa-brands {
+  transition: all 0.2s;
+}
+.fa-facebook-f:hover {
+  color: #1771e6;
+}
+.fa-twitter:hover {
+  color: #1c99e7;
+}
+.fa-linkedin-in:hover {
+  color: #2662a9;
+}
+.fa-instagram:hover {
+  color: #cf03d7;
+}
+.fa-youtube:hover {
+  color: #f10002;
+}
 .icon-style {
   border: 1px solid black;
   border-radius: 100%;
@@ -108,6 +147,19 @@
 .footer-icon-style:hover {
   background-color: white;
   color: black;
+}
+
+/* ====================== media query =======================*/
+
+@media screen and (max-width: 768px) {
+  .card-icon {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 769px) {
+  .card-icon {
+    justify-content: center;
+  }
 }
 
 /* ============ play btn ================= */
